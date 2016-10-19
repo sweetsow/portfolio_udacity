@@ -1,0 +1,56 @@
+body {
+	font-family: 'montserrat', sans-serif;
+	color: #000000;
+	font-weight: 300;
+}
+
+h3, a, a:link  {
+	color: #000000;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+}
+@media screen and (max-width: 300px)  {
+    .pic {
+	width: 300px;
+	height: auto;
+}
+
+.text-muted {
+	color: #000000;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+img {
+	width: 50%;
+	height: auto;
+}
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
